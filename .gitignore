@@ -1,0 +1,104 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# InstallerAqui está o `.gitignore` completo, cobrindo o ecossistema Python, o banco SQLite do projeto, variáveis de ambiente e arquivos de editores de código:
+
+```gitignore
+# Arquivos de ambiente e segredos (NUNCA subir para o GitHub)
+.env
+.env.local
+.env.*.local
+
+# Banco de dados local do projeto
+*.db
+*.sqlite3
+vagas.db
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Arquivos de log
+*.log
+logs/
+
+# IDEs e editores de código
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribuição / empacotamento
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testes e cobertura de código (caso adicione pytest depois)
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini# created by virtualenv automatically
