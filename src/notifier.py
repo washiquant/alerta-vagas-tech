@@ -35,7 +35,7 @@ def send_telegram_alert(job_data: dict) -> bool:
     }
 
     try:
-        response = requests.post(url, json=payload, timeout=10)
+        response = requests.post(url, json=payload, timeout=25)
         response.raise_for_status()
         return True
     except requests.RequestException as e:

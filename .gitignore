@@ -102,3 +102,4 @@ htmlcov/
 .DS_Store
 Thumbs.db
 desktop.ini# created by virtualenv automatically
+Bot-telegram.txt
